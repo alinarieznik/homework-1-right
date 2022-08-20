@@ -15,11 +15,16 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Favicon end -->
     <title>BarberShop</title>
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <!-- Custom styles -->
+<link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body class="page">
     <header class="header">
-        <nav class="nav">
+        <nav class="main-nav">
             <a class="logo" href="./index.html">
               <img class="logo-img" src="./images/logo.png" alt="BarberShop logo" width="68" height="56"/>
             </a>
@@ -40,7 +45,7 @@
             </ul>
         </nav>
 
-        <div class="header-group">
+        <div class="group">
             <a class="link" href="tel:+380441111111">+38 044 111 11 11</a>
             <button class="btn" type="button">Online-booking</button>
         </div>
@@ -48,27 +53,27 @@
     
     <main>
         <!-- Hero section -->
-        <section class="section">
-            <ul class="list">
-                <li class="list-item">
-                    <a class="link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
+        <section class="hero">
+            <ul class="hero-list list">
+                <li class="hero-item">
+                    <a class="hero-link link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
                 </li>
-                <li class="list-item">
-                    <a class="link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <li class="hero-item">
+                    <a class="hero-link link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </li>
             </ul>
-            <div class="group">
-                <p class="uppertitle">A hair salon for men in Kyiv</p>
-                <h1 class="main-title">BarberShop</h1>
-                <p class="subtitle">We are experts in trendy men’s haircuts.We work quickly, carefully and with style.</p>
+            <div class="hero-group">
+                <p class="hero-undertitle">A hair salon for men in Kyiv</p>
+                <h1 class="hero-title">BarberShop</h1>
+                <p class="hero-subtitle">We are experts in trendy men’s haircuts.We work quickly, carefully and with style.</p>
             </div>
 
-            <ul class="list">
-                <li class="list-item">
-                    <button class="btn" type="button">Back</button>
+            <ul class="slider-controls list">
+                <li class="slider-item">
+                    <button class="slider-btn" type="button">Back</button>
                 </li>
-                <li class="list-item">
-                    <button class="btn" type="button">Forward</button>
+                <li class="slider-item">
+                    <button class="slider-btn active" type="button">Forward</button>
                 </li>
             </ul>
         </section>
